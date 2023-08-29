@@ -2,6 +2,10 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faHome, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import instagram from "../../assests/Media/instagram.svg";
+import github from "../../assests/Media/github.svg";
+import fb from "../../assests/Media/fb.svg";
+import linkedin from "../../assests/Media/linkedin.svg";
 
 const Footer = () => {
   return (
@@ -19,11 +23,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src="../../Media/github.svg"
-              alt="LinkedIn-icon"
-              className="footer-followme"
-            />
+            <img src={github} alt="Github-icon" className="footer-followme" />
           </a>
 
           <a
@@ -32,24 +32,20 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              src="../../Media/linkedin.svg"
+              src={linkedin}
               alt="LinkedIn-icon"
               className="footer-followme"
             />
           </a>
 
           <a href="#!" target="_blank" rel="noreferrer">
-            <img
-              src="../../Media/fb.svg"
-              alt="LinkedIn-icon"
-              className="footer-followme"
-            />
+            <img src={fb} alt="Facebook-icon" className="footer-followme" />
           </a>
 
           <a href="#!" target="_blank" rel="noreferrer">
             <img
-              src="../../Media/instagram.svg"
-              alt="LinkedIn-icon"
+              src={instagram}
+              alt="Instagram-icon"
               className="footer-followme"
             />
           </a>
@@ -72,10 +68,14 @@ const Footer = () => {
             <a href="#!">Todo List</a>
           </p>
           <p>
-            <a href="#!">Pomodoro Clock</a>
+            <a href="https://arslanarshad105.github.io/PomodoroClock-ReactApp/">
+              Pomodoro Clock
+            </a>
           </p>
           <p>
-            <a href="#!">Dummy API</a>
+            <a href="https://arslanarshad105.github.io/DummyAPI-ReactApp/">
+              Dummy API
+            </a>
           </p>
         </Col>
         <Col xs={12} sm={12} md={3} lg={3}>
