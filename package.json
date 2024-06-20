@@ -2,7 +2,7 @@
   "name": "react-todolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ArslanArshad105.github.io/TodoList-ReactApp",
+  "homepage": "http://ArslanArshad105.github.io/React-TodoList",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",

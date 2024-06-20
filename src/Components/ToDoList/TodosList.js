@@ -3,7 +3,6 @@ import { Container } from "react-bootstrap";
 import InputTodos from "./InputTodos";
 import DisplayTodos from "./DisplayTodos";
 import EditTodoTask from "./EditTodoTask";
-import Footer from "./Footer";
 import { v4 as uuidv4 } from "uuid";
 
 const TodosList = () => {
@@ -78,7 +77,6 @@ const TodosList = () => {
           )}
         </Container>
       </Container>
-      <Footer />
     </>
   );
 };
