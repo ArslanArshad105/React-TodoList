@@ -1,105 +1,101 @@
-.Todo-Main-Container{
-    background: #427897;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    max-width: 100% !important;
-    /* height: calc(100vh - 56px); */
-    min-height: 91vh;
-    max-height: auto;
+.Todo-Main-Container {
+  background: #427897;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  max-width: 100% !important;
+  min-height: 100vh;
+  max-height: auto;
+  align-items: center;
 }
-.Todo-Center-Container{
-    margin: 100px;
-    background-color: #1A1A40;
-    border-radius: 8px;
-    height:fit-content;
-    padding-bottom: 40px;
+.Todo-Center-Container {
+  margin: 100px;
+  background-color: #1a1a40;
+  border-radius: 8px;
+  height: fit-content;
+  padding-bottom: 40px;
 }
-.Input-Container{
+.Input-Container {
   margin-bottom: 20px;
   width: 83% !important;
 }
 .InputTodosh1 {
-    color: #ffffff;
-    margin: 50px;
-    padding: 20px 0px 20px 0px;
+  color: #ffffff;
+  margin: 50px;
+  padding: 20px 0px 20px 0px;
 }
-.InputTodos-FormControl{
-    font-size: 16px !important;
-    padding: 10px 0px 10px 0px !important;
-    width: 80% !important;
-    border-radius: 0px !important;
-   
+.InputTodos-FormControl {
+  font-size: 16px !important;
+  padding: 10px 0px 10px 0px !important;
+  width: 80% !important;
+  border-radius: 0px !important;
 }
 .todo-btn {
-    background-color: #427897 !important;
-    padding: 10px 10px 10px 10px !important;
-    color: #fff;
-    border: none !important;
-    cursor: pointer;
-    border-radius: 0px !important;
-    
-  }
-  .Todolist-container{
-
-    width: 80% !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    word-break: break-word;
-    align-items: center;
-    background: #427897;
-    color: #fff;
-    padding: 0.75rem 1rem;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    cursor: pointer;
-  }
-  .On-Checked {
-    text-decoration: line-through;
-    color: #000;
-  }
-  .fa-pen{
-margin-right: 10px;
-  }
-
-  .footer-followme{
-    background: #ffffff;
-    border: #FFFFFF;
-    border-radius: 50%;
-    color: #2276ff;
-    font-size: 18px;
-    height: 36px;
-    padding: 2.75px;
-    width: 36px;
-    
+  background-color: #427897 !important;
+  padding: 10px 10px 10px 10px !important;
+  color: #fff;
+  border: none !important;
+  cursor: pointer;
+  border-radius: 0px !important;
 }
-.footer-heading-color{
+.Todolist-container {
+  width: 80% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  word-break: break-word;
+  align-items: center;
+  background: #427897;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.On-Checked {
+  text-decoration: line-through;
+  color: #000;
+}
+.fa-pen {
+  margin-right: 10px;
+}
+
+.footer-followme {
+  background: #ffffff;
+  border: #ffffff;
+  border-radius: 50%;
+  color: #2276ff;
+  font-size: 18px;
+  height: 36px;
+  padding: 2.75px;
+  width: 36px;
+}
+.footer-heading-color {
   color: #ffffff;
 }
-.follow{
-    display: flex;
-    justify-content: space-between;
+.follow {
+  display: flex;
+  justify-content: space-between;
 }
 .footer {
-    background-color: #1A1A40;
-    max-width: 100% !important;
-    padding-top: 20px;
+  background-color: #1a1a40;
+  max-width: 100% !important;
+  padding-top: 20px;
 }
 
 .font-Icon {
-font-size: 20px;
-color: #FFFFFF;
+  font-size: 20px;
+  color: #ffffff;
 }
-a{
-    color: #FFFFFF !important;
-    text-decoration: none !important;
+a {
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
-a:hover{
-    color: #0a58ca !important;
+a:hover {
+  color: #0a58ca !important;
 }
-p{
-    color: #FFFFFF;
+p {
+  color: #ffffff;
 }
